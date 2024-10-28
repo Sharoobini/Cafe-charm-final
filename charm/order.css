@@ -1,0 +1,97 @@
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #140a00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.order-section {
+    background-color: #d3ad7f;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 400px;
+}
+
+.order-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #507868;
+}
+
+.inputBox {
+    margin-bottom: 15px;
+}
+
+.inputBox label {
+    font-size: 16px;
+    color: #140a00;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inputBox input,
+.inputBox textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.inputBox textarea {
+    resize: none;
+}
+
+.menu-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.menu-items {
+    margin-bottom: 15px;
+}
+
+.menu-items label {
+    font-size: 14px;
+    color: #140a00;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #507868;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #406456;
+}
+
+.success-message {
+    margin-top: 10px;
+    color: green;
+    font-size: 14px;
+    display: none;
+}
+
+

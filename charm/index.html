@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Charm</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="showCart">
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img class="cafe" src="logo-removebg-preview.png">
+        </a>
+
+        <nav class="navbar">
+    <a href="#home">home</a>
+    <a href="#about">about</a>
+    <a href="#menu">menu</a>
+    <a href="#contact">contact</a>
+    <a href="login.html">My Account</a>
+</nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"><span>0</span></div>
+        </div>
+
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cartTab">
+            <h1>Shopping Cart</h1>
+            <div class="listCart">
+                <div class="item">
+                    <div class="image">
+                        <img src="Chai Latte(1).jpg">
+                    </div>
+                    <div class="name">
+                        Chai Latte
+                    </div>
+                    <div class="totalPrice">
+                        Rs.480
+                    </div>
+                    <div class="quantity">
+                        <span class="minus">-</span>
+                        <span>1</span>
+                        <span class="plus">+</span>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="btn">
+                <button class="close">CLOSE</button>
+                <button class="checkout">CHECK OUT</button>
+            </div>
+
+            
+        </div>
+
+        
+
+</header>
+
+
+
+<section class="home" id="home">
+    
+    <div class="content">
+        <h3>Sip, Savor, Smile</h3>
+        <p>Explore our extensive menu featuring a wide range of coffee blends, teas, and delectable treats. Whether you're in the mood for a classic cappuccino or a creative cold brew, we have something for every palate.</p>
+        <a href="login.html" class="btn">Join With Us</a>
+    </div>
+
+</section>
+
+<section class="about" id="about">
+    <h1 class="heading"> <span>About</span> us</h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="Cozy Corner Café 03.jpg">
+        </div>
+
+        <div class="content">
+            <h3>What Makes Us Special?</h3>
+            <p>At Café Charm, we’re more than just a coffee shop – we’re a community hub where stories are shared, friendships are made, and every cup of coffee is crafted with passion. Our journey began with a simple idea: to create a space where people can unwind, connect, and savor the moment. From our humble beginnings, we’ve grown into a beloved local spot, known for our quality brews and warm, welcoming atmosphere.</p>
+            <a href="#" class="btn">Find out more</a>
+        </div>
+    </div>
+</section>
+
+<section class="menu" id="menu">
+    <h1 class="heading">Our <span>Menu</span></h1>
+
+    <nav class="category">
+        <a href="#" data-category="all">All</a>
+        <a href="#" data-category="beverages">Beverage</a>
+        <a href="#" data-category="snacks">Snacks</a>
+        <a href="#" data-category="fooditems">Food Items</a>
+        <a href="#" data-category="addons">Add-ons</a>
+        <a href="#" data-category="otheritems">Other items</a>
+    </nav>
+
+    <div class="box-container">
+        <div class="box" data-category="beverages">
+            <img src="Homemade Hot Mocha Latte.jpg">
+            <h3 class="itemName">Hot Mocha Latte</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="beverages">
+            <img src="Salted Caramel Macchiato.jpg">
+            <h3 class="itemName">Salted Caramel Macchiato</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="beverages">
+            <img src="Xícara de capuccino de café quente com latte art na mesa de madeira no café _ Foto Premium.jpg">
+            <h3 class="itemName">Hot Mocha Latte</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="beverages">
+            <img src="Iced Mocha.jpg">
+            <h3>Iced Mocha</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="beverages">
+            <img src="How to Make an Iced Americano better than Starbucks.jpg">
+            <h3 class="itemName">Iced Americano</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="beverages">
+            <img src="Low Calorie Cold Brew Coffee - Lose Weight By Eating.jpg">
+            <h3 class="itemName">Cold Brew Coffee</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="beverages">
+            <img src="Maple Brown Sugar Latte — Lauren Camposano _ Food & Product Photographer.jpg">
+            <h3 class="itemName">Maple Brown Sugar Latte</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="beverages">
+            <img src="Caffe Mocha Magic for Chocolate Coffee Lovers - Happy Baking Days(1).jpg">
+            <h3 class="itemName">Caffe Mocha Magic</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="snacks">
+            <img src="Chocolate Chip Cookie Dough Energy Bites.jpg">
+            <h3 class="itemName">Chocolate Chip Cookie</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="snacks">
+            <img src="Protein ice cream bites (Vegan, paleo).jpg">
+            <h3 class="itemName">Protein ice cream bites</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="snacks">
+            <img src="Peanut Butter Brownies [90 Minutes].jpg">
+            <h3 class="itemName">Peanut Butter Brownies</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="snacks">
+            <img src="Sea Salt Caramel Fudge Brownies.jpg">
+            <h3 class="itemName">Sea Salt Caramel Fudge</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="snacks">
+            <img src="Dark Chocolate Honey Fig Walnut Truffles.jpg">
+            <h3 class="itemName">Dark Chocolate Walnut Truffle</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="snacks">
+            <img src="Chocolate Glazed Donuts With Sprinkles _ Eitan Bernath.jpg">
+            <h3 class="itemName">Chocolate Glazed Donuts</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="fooditems">
+            <img src="Bread Omelette Sandwich.jpg">
+            <h3 class="itemName">Bread Omelette Sandwich</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="fooditems">
+            <img src="How to Make a Grilled Chicken Panini Sandwich.jpg">
+            <h3 class="itemName">Grilled Chicken Sandwich</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="fooditems">
+            <img src="Grilled Chicken Wrap.jpg">
+            <h3 class="itemName">Grilled Chicken Wrap</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="fooditems">
+            <img src="Black Forest Cake - Eats Delightful.jpg">
+            <h3 class="itemName">Black Forest cake</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="fooditems">
+            <img src="Carrot Cake Cupcakes [40 Minutes].jpg">
+            <h3 class="itemName">Carrot Cupcake</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="fooditems">
+            <img src="Ultimate Chocolate Cupcakes.jpg">
+            <h3 class="itemName">Chocolate Cupcake</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="addons">
+            <img src="Whipped cream (Chantilly cream).jpg">
+            <h3 class="itemName">Whipped Cream</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="addons">
+            <img src="Best Cocoa Powder for Baking - Salt & Baker.jpg">
+            <h3 class="itemName">Cocoa Powder</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+
+        <div class="box" data-category="addons">
+            <img src="Whipped cream (Chantilly cream).jpg">
+            <h3 class="itemName">Whipped Cream</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+
+        <div class="box" data-category="otheritems">
+            <img src="Raw Organic Green Fresh Pistachios Raw Organic Green Fresh Pistachios in a Bowl.jpg">
+            <h3 class="itemName">Fresh Pistachios</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="fooditems">
+            <img src="Vegetable Soup.jpg">
+            <h3 class="itemName">Vegetable Soup</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="otheritems">
+            <img src="Premium Photo _ Macro falling coffee bean on gray background.jpg">
+            <h3 class="itemName">Coffee Bean</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="otheritems">
+            <img src="Free Photo _ Raw cashews nuts in bowl on dark background(1).jpg">
+            <h3 class="itemName">Raw Cashew Nuts</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+        <div class="box" data-category="otheritems">
+            <img src="Homemade Chicken Noodle Soup.jpg">
+            <h3>Chicken Noodle Soup</h3>
+            <div class="price">Rs.480 </div>
+            <button class="btn">add to cart</a>
+        </div>
+    </div>
+</section>
+
+<section id="cartTab">
+    <h2>Your Cart</h2>
+    <div class="cart-items">
+        <!-- Items will be added dynamically here -->
+    </div>
+</section>
+
+
+<section class="contact" id="contact">
+    <h1 class="heading"><span>Contact</span> Us</h1>
+    <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15843.167273775429!2d79.8404559904683!3d6.915475841067789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2594226a0ffbb%3A0xa413c5b33bf575f6!2sKollupitiya%2C%20Colombo!5e0!3m2!1sen!2slk!4v1725806862009!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form id="contactForm" novalidate>
+            <h3>Get in touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" id="name" placeholder="Name" required>
+                <span class="error-message" id="nameError"></span>
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" id="email" placeholder="Email" required>
+                <span class="error-message" id="emailError"></span>
+            </div>
+            <div class="inputBox">
+                <span class="fa fa-comments"></span>
+                <input type="text" id="phone" placeholder="Your Message/ Feedback" required>
+                <span class="error-message" id="phoneError"></span>
+            </div>
+            <input type="submit" value="Contact Now" class="btn">
+            <div id="successMessage" class="success-message"></div>
+        </form>
+        
+    </div>
+</section>
+
+
+
+
+
+<section class="footer">
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+    <a href="#home">home</a>
+    <a href="#about">about</a>
+    <a href="#menu">menu</a>
+    <a href="#contact">contact</a>
+    <a href="login.html">My Account</a>
+            
+    </div>
+
+    <div class="credit"> © Cafe Charm 2024 | All rights reserved</div>
+</section>
+
+
+
+
+
+
+
+
+<script src="script.js"></script>   
+<script src="contact.js"></script> 
+<script src="category.js"></script> 
+<script src="cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Cafe Charm</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img class="cafe" src="logo-removebg-preview.png">
+        </a>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="index.html#about">about</a>
+            <a href="index.html#menu">menu</a>
+            <a href="index.html#contact">contact</a>
+            <a href="login.html">My Account</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        </div>
+    </header>
+
+    <section class="login" id="login">
+        <h1 class="heading"> <span>Login</span> to your account</h1>
+        
+        <div class="login-form">
+            <form id="loginForm" action="login.php" method="POST">
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input id="email" name="Email" type="email" placeholder="Enter your email">
+                    <span id="emailError" class="error-message" style="color: red;"></span>
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-lock"></span>
+                    <input id="password" name="password" type="password" placeholder="Enter your password">
+                    <span id="passwordError" class="error-message" style="color: red;"></span>
+                </div>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                <input type="submit" value="Login" class="btn">
+                <p>Don't have an account? <a href="register.php">Sign Up</a></p>
+            </form>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="index.html">home</a>
+            <a href="index.html#about">about</a>
+            <a href="index.html#menu">menu</a>
+            <a href="index.html#contact">contact</a>
+            <a href="login.html">My Account</a>
+        </div>
+
+        <div class="credit"> © Cafe Charm 2024 | All rights reserved</div>
+    </section>
+
+    
+</body>
+</html>
